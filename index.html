@@ -66,13 +66,6 @@
         productName: "HairFX-TressFX",
         productVersion: "0.1.0",
         showBanner: unityShowBanner,
-        cacheControl: function (url) {
-          if (url.match(/\.data/)){
-            return "must-revalidate";
-          }
-          
-          return "no-store";
-        }
       };
 
       // By default Unity keeps WebGL canvas render target size matched with
